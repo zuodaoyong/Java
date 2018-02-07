@@ -6,8 +6,8 @@ public class BaseStringUtils {
 
 	public static void main(String[] args) {
 	    //System.out.println(containsWhitespace(builder));
-		StringBuilder builder=new StringBuilder("a d ba ba");
-		System.out.println(countOccurrencesOf(builder,"ba"));
+		StringBuilder builder=new StringBuilder("absdfasdajkassdagdkjsg");
+		System.out.println(deleteAny(builder, "sda"));
 	}
 	/**
 	 * 判断sequence是否建有空格(sequence可以可以是String 也可以是StringBuild,StringBuffer)
@@ -113,4 +113,35 @@ public class BaseStringUtils {
 		return StringUtils.countOccurrencesOf(sequence.toString(), sub.toString());
 	}
 	
+	/**
+	 * newPattern替换sequence中的oldPattern
+	 * @param sequence
+	 * @param oldPattern
+	 * @param newPattern
+	 * @return
+	 */
+	public static CharSequence replace(CharSequence sequence,CharSequence oldPattern,CharSequence newPattern){
+		return StringUtils.replace(sequence.toString(), oldPattern.toString(), newPattern.toString());
+	}
+	
+	/**
+	 * 删除sequence中所有匹配上pattern字符串
+	 * @param sequence
+	 * @param pattern
+	 * @return
+	 */
+	public static CharSequence delete(CharSequence sequence,CharSequence pattern){
+		return StringUtils.delete(sequence.toString(), pattern.toString());
+	}
+	
+	/**
+	 * 从sequence删除匹配上charsToDelete的任意字符（即是没有全部匹配也删除）
+	 * 例:sequence:abcasd   charsToDelete:asd 那么结果：bc
+	 * @param sequence
+	 * @param charsToDelete
+	 * @return
+	 */
+	public static CharSequence deleteAny(CharSequence sequence, CharSequence charsToDelete){
+		return StringUtils.deleteAny(sequence.toString(), charsToDelete.toString());
+	}
 }
