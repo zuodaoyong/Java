@@ -32,7 +32,6 @@ public class LambdaDemo {
 				new HighTemp(84),new HighTemp(83)};
 		count=InstanceMethodWithObjRef.counter(highTemps,HighTemp::sameTemp,new HighTemp(89));
 		System.out.println(count);
-	    
 	}
 	
 	public static void testObjRef(){
