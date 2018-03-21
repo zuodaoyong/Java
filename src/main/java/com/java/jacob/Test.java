@@ -14,6 +14,9 @@ import com.jacob.com.Variant;
 
 public class Test{
     /**
+     * 具体使用可以访问两个博客:
+     * http://www.codeweblog.com/%E4%BD%BF%E7%94%A8java%E5%AE%9E%E7%8E%B0%E8%AF%AD%E9%9F%B3%E6%9C%97%E8%AF%BB%E4%B8%80%E6%AE%B5%E6%96%87%E6%9C%AC/
+     * http://blog.csdn.net/xichengqc/article/details/78709724
      * 将jacob.jar打到本地maven库里
      * mvn install:install-file -Dfile=jacob.jar -DgroupId=com.jacob -DartifactId=jacob -Dversion=1.0 -Dpackaging=jar 
      * @param args
