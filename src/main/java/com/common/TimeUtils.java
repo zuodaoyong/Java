@@ -7,7 +7,8 @@ import java.util.Date;
 
 
 public class TimeUtils {
-	
+	//lambda的格式
+	ThreadLocal<DateFormat> format = ThreadLocal.withInitial(() -> new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
 	//时间格式
 	public final static String SECONDSTR="yyyy-MM-dd HH:mm:ss";
 	public final static String MINUTESTR="yyyy-MM-dd HH:mm";
