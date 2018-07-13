@@ -99,6 +99,11 @@
 	    <artifactId>pagehelper</artifactId>
 	    <version>${pagehelper.version}</version>
 	</dependency>
+	<dependency>
+		<groupId>com.jacob</groupId>
+		<artifactId>jacob</artifactId>
+		<version>1.0</version>
+	</dependency>
     <!-- 连接池 -->
 	<dependency>
 		<groupId>com.alibaba</groupId>

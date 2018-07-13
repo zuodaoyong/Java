@@ -5,7 +5,7 @@ import java.util.Properties;
 
 import org.springframework.core.io.support.PropertiesLoaderUtils;
 
-public class PropertiesUtils {
+public class PropertiesUtils{
 	
 	/**
 	 * 加载类路径下的properties文件
@@ -20,7 +20,7 @@ public class PropertiesUtils {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		Properties properties = loadClassPathProperties("test.properties");
-		System.out.println(properties);
+		Properties properties = loadClassPathProperties("properties");
+		//System.out.println(properties);
 	}
 }
