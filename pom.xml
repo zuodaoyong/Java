@@ -80,6 +80,12 @@
 		<artifactId>elasticsearch-rest-high-level-client</artifactId>
 		<version>${elasticsearch.version}</version>
 	</dependency>
+	<!-- spring-data-elasticsearch -->
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-elasticsearch</artifactId>
+	    <version>3.0.8.RELEASE</version>
+	</dependency>
     <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
