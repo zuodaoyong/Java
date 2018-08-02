@@ -11,7 +11,6 @@ public class ThreadCommunication {
 				try {
 					business.sub(i);
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -20,7 +19,6 @@ public class ThreadCommunication {
 			try {
 				business.main(i);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
