@@ -4,14 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+import org.apache.commons.lang.StringUtils;
+
 import com.common.TimeUtils;
 
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		Map<String,String> map=new TreeMap<>();
+		HashMap<String,String> map=new HashMap<>();
 		map.put("1","1");
-		map.put("2","2");
-		System.out.println(map);
+		String string = StringUtils.substringBetween("2018-08-03 16:20:00", "", " ");
+		System.out.println(string);
 	}
+	
 }

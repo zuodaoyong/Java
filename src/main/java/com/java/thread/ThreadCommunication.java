@@ -24,7 +24,6 @@ public class ThreadCommunication {
 		}
 	}
 }
-
 class Business{
 	boolean isSub=true;
 	public synchronized void sub(int i) throws Exception{
