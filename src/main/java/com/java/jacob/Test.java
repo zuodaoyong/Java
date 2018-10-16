@@ -42,7 +42,7 @@ public class Test{
 
 	        Variant item = Dispatch.call(setvoiceActivex, "GetDescription");
 	        // 执行朗读
-	        Dispatch.call(sapo, "Speak", new Variant("汽车票出票成功量为100，出票成功率为百分之90"));
+	        Dispatch.call(sapo, "Speak", new Variant("请选择您的出发地，汽车票出票成功量为100，出票成功率为百分之90"));
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	    } finally {

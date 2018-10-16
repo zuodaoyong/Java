@@ -1,21 +1,18 @@
 package com.test;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.TreeMap;
+import java.util.concurrent.ConcurrentHashMap;
 
-import org.apache.commons.lang.StringUtils;
-
-import com.common.TimeUtils;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		Random random=new Random();
-		for(int i=0;i<30;i++){
-			System.out.print(random.nextInt(100)+",");
-		}
+		MultiValueMap<String,String> map=new LinkedMultiValueMap<>();
+		map.add("a","1");
+		map.add("a","2");
+		System.out.println(map.get("a"));
+		
 		
 	}
 	
