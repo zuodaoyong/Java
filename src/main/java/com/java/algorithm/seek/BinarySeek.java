@@ -10,7 +10,7 @@ public class BinarySeek {
     	int[] arr={1,2,3,4,5,6,7};
     	int n=0;
 		int head=0;
-		int tail=arr.length;
+		int tail=arr.length-1;
 		int middle=0;
 		while(head<=tail){
 			n++;
