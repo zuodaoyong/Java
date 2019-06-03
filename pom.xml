@@ -43,11 +43,11 @@
     <shiro.version>1.4.0</shiro.version>
   </properties>
   <dependencies>
-    <dependency>
+    <!-- <dependency>
 	    <groupId>com.jacob</groupId>
 	    <artifactId>jacob</artifactId>
 	    <version>1.0</version>
-	</dependency>
+	</dependency> -->
 	<dependency>
 	    <groupId>org.apache.shiro</groupId>
 	    <artifactId>shiro-core</artifactId>
@@ -110,11 +110,13 @@
 	    <artifactId>pagehelper</artifactId>
 	    <version>${pagehelper.version}</version>
 	</dependency>
+	<!--  
 	<dependency>
 		<groupId>com.jacob</groupId>
 		<artifactId>jacob</artifactId>
 		<version>1.0</version>
 	</dependency>
+	-->
     <!-- 连接池 -->
 	<dependency>
 		<groupId>com.alibaba</groupId>

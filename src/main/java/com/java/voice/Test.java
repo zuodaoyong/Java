@@ -1,12 +1,9 @@
 package com.java.voice;
 
-import com.jacob.activeX.ActiveXComponent;
-import com.jacob.com.Dispatch;
-import com.jacob.com.Variant;
 
 public class Test {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		//这个Sapi.SpVoice是需要安装什么东西吗，感觉平白无故就来了
 	    ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
 	    // Dispatch是做什么的？
@@ -35,5 +32,5 @@ public class Test {
 	        sapo.safeRelease();
 	        sap.safeRelease();
 	    }
-	}
+	}*/
 }
