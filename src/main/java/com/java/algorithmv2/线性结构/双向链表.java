@@ -5,8 +5,8 @@ public class 双向链表 {
 
     public static void main(String[] args) {
         LinkedList linkedList=new LinkedList();
-
-        linkedList.add(1,"宋江","及时雨");
+        Node21 node=new Node21(1,"宋江","及时雨");
+        linkedList.add(node);
 
         linkedList.show();
     }
@@ -16,34 +16,32 @@ public class 双向链表 {
 }
 
  class LinkedList{
-    private Node2 head=new Node2(null,null,null);
+    private Node21 head=new Node21(null,null,null);
 
-    public void add(int no,String name,String nickName){
-        Node2 temp=head;
-        Node2 node=new Node2(no,name,nickName);
+    public void add(Node21 node){
+        Node21 temp=head;
         while (temp.next!=null){
             temp=temp.next;
         }
-        //node.next=temp.next;
         temp.next=node;
         node.pre=temp;
 
     }
     public void show(){
-        Node2 temp=head;
+        Node21 temp=head;
         while(temp.next!=null){
             System.out.println(temp.next);
             temp=temp.next;
         }
     }
 }
-class Node2{
+class Node21{
     public Integer no;
     public String name;
     public String nickName;
-    public Node2 next;
-    public Node2 pre;
-    public Node2(Integer no,String name,String nickName){
+    public Node21 next;
+    public Node21 pre;
+    public Node21(Integer no,String name,String nickName){
         this.no=no;
         this.name=name;
         this.nickName=nickName;

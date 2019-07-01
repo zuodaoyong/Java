@@ -1,49 +1,86 @@
 package com.test;
 
 
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
+
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		int[] arr={49,38,65,97,76,13,27,10,54};
-		sort(arr);
-		for(int i=0;i<arr.length;i++){
-			System.out.print(arr[i]+" ");
+		// 测试
+		System.out.println("双向链表的测试");
+		// 先创建节点
+		HeroNode2 hero1 = new HeroNode2(1, "宋江", "及时雨");
+		// 创建一个双向链表
+		DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
+		doubleLinkedList.add(hero1);
+
+		doubleLinkedList.list();
+
+
+
+	}
+
+}
+// 创建一个双向链表的类
+class DoubleLinkedList {
+
+	// 先初始化一个头节点, 头节点不要动, 不存放具体的数据
+	private HeroNode2 head = new HeroNode2(0, "", "");
+
+
+	// 遍历双向链表的方法
+	// 显示链表[遍历]
+	public void list() {
+		// 判断链表是否为空
+		if (head.next == null) {
+			System.out.println("链表为空");
+			return;
 		}
-	}
-	
-	private static void sort(int[] arr){
-		int[] brr=new int[arr.length];
-		merge(arr, brr, 0, arr.length-1);
-	}
-	
-	private static void merge(int[] arr,int[] brr,int left,int right){
-		if(left<right){
-			int middle=(left+right)>>1;
-		    merge(arr, brr, left, middle);
-		    merge(arr, brr, middle+1, right);
-		    mergeSort(arr,brr,left,middle,right);
+		// 因为头节点，不能动，因此我们需要一个辅助变量来遍历
+		HeroNode2 temp = head.next;
+		while (true) {
+			// 判断是否到链表最后
+			if (temp == null) {
+				break;
+			}
+			// 输出节点的信息
+			System.out.println(temp);
+			// 将temp后移， 一定小心
+			temp = temp.next;
 		}
 	}
 
-	private static void mergeSort(int[] arr, int[] brr, int left, int middle, int right) {
-		int i=left;
-		int j=middle+1;
-		int k=left;
-		while(i<=middle&&j<=right){
-			if(arr[i]<=arr[j]){
-				brr[k++]=arr[i++];
-			}else{
-				brr[k++]=arr[j++];
-			}
-		}
-		while(i<=middle){
-			brr[k++]=arr[i++];
-		}
-		while(j<=right){
-			brr[k++]=arr[j++];
-		}
-		while(left<=right){
-			arr[left]=brr[left++];
-		}
+	// 添加一个节点到双向链表的最后.
+	public void add(HeroNode2 heroNode) {
+
+		HeroNode2 temp = head;
+		temp.next = heroNode;
+		heroNode.pre = temp;
 	}
+
+
+}
+
+// 定义HeroNode2 ， 每个HeroNode 对象就是一个节点
+class HeroNode2 {
+	public int no;
+	public String name;
+	public String nickname;
+	public HeroNode2 next; // 指向下一个节点, 默认为null
+	public HeroNode2 pre; // 指向前一个节点, 默认为null
+	// 构造器
+
+	public HeroNode2(int no, String name, String nickname) {
+		this.no = no;
+		this.name = name;
+		this.nickname = nickname;
+	}
+
+	// 为了显示方法，我们重新toString
+	@Override
+	public String toString() {
+		return "HeroNode [no=" + no + ", name=" + name + ", nickname=" + nickname + "]";
+	}
+
 }
