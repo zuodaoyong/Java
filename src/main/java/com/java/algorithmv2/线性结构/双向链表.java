@@ -16,13 +16,10 @@ public class 双向链表 {
 }
 
  class LinkedList{
-    private Node21 head=new Node21(null,null,null);
+    private Node21 head=new Node21(0, "", "");
 
     public void add(Node21 node){
         Node21 temp=head;
-        while (temp.next!=null){
-            temp=temp.next;
-        }
         temp.next=node;
         node.pre=temp;
 
@@ -49,12 +46,6 @@ class Node21{
 
     @Override
     public String toString() {
-        return "Node2{" +
-                "no=" + no +
-                ", name='" + name + '\'' +
-                ", nickName='" + nickName + '\'' +
-                ", next=" + next +
-                ", pre=" + pre +
-                '}';
+        return "HeroNode [no=" + no + ", name=" + name + ", nickname=" + nickName + "]";
     }
 }
