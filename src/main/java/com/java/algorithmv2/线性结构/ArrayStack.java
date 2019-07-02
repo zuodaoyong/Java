@@ -34,4 +34,27 @@ public class ArrayStack<E> {
         }
         return (E)this.arr[this.top--];
     }
+
+    public void show(){
+        if(this.top==-1){
+            System.out.println("栈空");
+            return;
+        }
+        int temp=this.top;
+        while (temp>-1){
+            System.out.println(this.arr[temp--]);
+        }
+    }
+
+    public boolean isEmpty(){
+        return this.top==-1?true:false;
+    }
+
+    /**
+     * 取出栈顶数据，但是不出栈
+     * @return
+     */
+    public E get(){
+        return (E)this.arr[this.top];
+    }
 }
