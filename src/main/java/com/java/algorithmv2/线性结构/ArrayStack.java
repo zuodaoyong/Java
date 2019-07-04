@@ -57,4 +57,5 @@ public class ArrayStack<E> {
     public E get(){
         return (E)this.arr[this.top];
     }
+
 }

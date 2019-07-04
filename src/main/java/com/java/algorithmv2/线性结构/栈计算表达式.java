@@ -4,7 +4,6 @@ import com.common.CommonUtils;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Stack;
 
 // 表达式：3+2*6-2
 public class 栈计算表达式 {
@@ -116,6 +115,21 @@ public class 栈计算表达式 {
           default:
               return null;
       }
+    }
+
+    /**
+     * 获取操作符的优先级
+     * @param oper
+     * @return
+     */
+    private static int getPriority(int oper){
+        if(oper=='*'||oper=='/'){
+            return 1;
+        }else if(oper=='+'||oper=='-'){
+            return 0;
+        }else{
+            return -1;
+        }
     }
 }
 
