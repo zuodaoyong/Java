@@ -4,18 +4,22 @@ import org.junit.Before;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisSentinelPool;
 import redis.clients.jedis.Pipeline;
 
+import java.util.List;
 import java.util.Map;
 
 public class JedisDemo {
 
     private static JedisPool jedisPool;
     private static Jedis jedis;
+    private static JedisSentinelPool jedisSentinelPool;
     @Before
     public void before(){
         jedisPool = InitJedisClient.getJedisPool();
         jedis=InitJedisClient.getJedis();
+        jedisSentinelPool=InitJedisClient.getJedisSentinelPool();
     }
     /**
      * set操作
@@ -83,5 +87,12 @@ public class JedisDemo {
     public void pfadd(){
         Jedis resource = jedisPool.getResource();
         resource.pfadd("pf1","uuid-1","uuid-2","uuid-3");
+    }
+
+    @Test
+    public void initJedisSentinelPool(){
+        Jedis resource = jedisSentinelPool.getResource();
+        List<String> mymaster = resource.sentinelGetMasterAddrByName("mymaster");
+        System.out.println(mymaster);
     }
 }
