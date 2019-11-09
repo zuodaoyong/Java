@@ -1,17 +1,19 @@
 package com.test;
 
 
-import java.util.concurrent.*;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import com.java.algorithm.common.CommonUtils;
+import com.java.functions.SortFunction;
 
+import java.util.Arrays;
+
+import static java.lang.Thread.sleep;
 
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		float a=1.1f;
-		System.out.println( a);
+		Thread t1=new Thread();
+		t1.start();
+
 
 	}
 
