@@ -5,6 +5,12 @@ public class InterruptDemo {
         //interruptTest1();
         //interruptTest2();
         //interruptTest3();
+        /*new Thread(){
+            @Override
+            public void run() {
+                while (true){}
+            }
+        }.start();*/
         interruptTest4();
     }
 
@@ -12,7 +18,7 @@ public class InterruptDemo {
         ThreadService threadService=new ThreadService();
         threadService.execute(()->{
             while (true){
-
+                System.out.println("inner");
             }
         });
         threadService.shutdown(10000);
