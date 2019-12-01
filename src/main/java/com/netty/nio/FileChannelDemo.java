@@ -12,7 +12,18 @@ public class FileChannelDemo {
     public static void main(String[] args) throws Exception{
         //writeFile();
         //readFile();
-        copyFile();
+        //copyFile();
+        transFrom();
+    }
+
+    private static void transFrom() throws Exception{
+        FileInputStream inputStream=new FileInputStream("D:\\temp\\kafka_2.12-2.3.0.tgz");
+        FileOutputStream outputStream=new FileOutputStream("D:\\temp\\netty\\kafka_2.12-2.3.0.tgz");
+        FileChannel inputStreamChannel = inputStream.getChannel();
+        FileChannel outputStreamChannel = outputStream.getChannel();
+        outputStreamChannel.transferFrom(inputStreamChannel,0,inputStreamChannel.size());
+        inputStream.close();
+        outputStream.close();
     }
 
     private static void copyFile() throws Exception{
