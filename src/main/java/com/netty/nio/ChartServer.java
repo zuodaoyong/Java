@@ -81,7 +81,6 @@ public class ChartServer {
                 socketChannel.write(byteBuffer);
             }
         }
-
     }
 
     public static void main(String[] args) throws Exception{
