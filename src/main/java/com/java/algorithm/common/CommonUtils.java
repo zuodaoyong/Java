@@ -14,9 +14,9 @@ public class CommonUtils {
 	    .forEach(e->{
 	    	System.out.print(e+" ");
 	    });
-	   
+
 	}
-	
+
 	public static void swap(Object[] x, int a, int b) {
         Object t = x[a];
         x[a] = x[b];
@@ -24,7 +24,7 @@ public class CommonUtils {
     }
 
 
-    public static void sortRandomNumber(SortFunction sortFunction) throws IOException {
+    public static void sortRandomNumber(SortFunction sortFunction) throws Exception{
 		int len=8000000;
 		Integer[] arr=new Integer[len];
 		for(int i=0;i<len;i++){
