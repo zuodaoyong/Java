@@ -1,22 +1,17 @@
 package com.java.algorithm.sort;
 
+
 import com.common.ArrayUtils;
-import com.java.algorithm.common.CommonUtils;
-import com.java.functions.SortFunction;
 
 import java.util.Arrays;
 
+
 public class 基数排序 {
     public static void main(String[] args) throws Exception {
-
-        SortFunction<Integer> sortFunction=(arr)->{
-            radixSort(arr);
-        };
-        CommonUtils.sortRandomNumber(sortFunction);
-        //Integer[] arr = ArrayUtils.arr;
-       // System.out.println(Arrays.toString(arr));
-
-        //System.out.println(Arrays.toString(arr));
+        Integer[] arr = ArrayUtils.arr;
+        System.out.println(Arrays.toString(arr));
+        radixSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void radixSort(Integer[] arr){
