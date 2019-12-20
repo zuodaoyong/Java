@@ -3,7 +3,6 @@ package com.java.algorithm.common;
 import com.common.TimeUtils;
 import com.java.functions.SortFunction;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -25,7 +24,7 @@ public class CommonUtils {
 
 
     public static void sortRandomNumber(SortFunction sortFunction) throws Exception{
-		int len=8000000;
+		int len=10000000;
 		Integer[] arr=new Integer[len];
 		for(int i=0;i<len;i++){
 			int v = Double.valueOf(Math.random() * len).intValue();
