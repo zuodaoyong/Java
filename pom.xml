@@ -328,7 +328,13 @@
 	  <dependency>
 		  <groupId>io.netty</groupId>
 		  <artifactId>netty-all</artifactId>
-		  <version>4.1.42.Final</version>
+		  <version>4.1.25.Final</version>
+	  </dependency>
+	  <!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
+	  <dependency>
+		  <groupId>org.redisson</groupId>
+		  <artifactId>redisson</artifactId>
+		  <version>3.11.5</version>
 	  </dependency>
   </dependencies>
   <build>
