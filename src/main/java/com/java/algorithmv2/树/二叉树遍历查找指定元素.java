@@ -5,9 +5,9 @@ package com.java.algorithmv2.树;
  *     2    3
  *        4   5
  */
-public class 二叉树遍历 {
-
+public class 二叉树遍历查找指定元素 {
     public static void main(String[] args) {
+
         TreeNode treeNode1=new TreeNode(1);
         TreeNode treeNode2=new TreeNode(2);
         TreeNode treeNode3=new TreeNode(3);
@@ -19,47 +19,42 @@ public class 二叉树遍历 {
         treeNode3.setRight(treeNode5);
 
         BinaryTree binaryTree=new BinaryTree(treeNode1);
-        binaryTree.prePrint();//1 2 3 4 5
-        binaryTree.midPrint();//2 1 4 3 5
-        binaryTree.postPrint();//2 4 5 3 1
+        binaryTree.preSearch(4);
+        binaryTree.midSearch(4);
+        binaryTree.postSearch(4);
     }
+
 
     static class BinaryTree{
         private TreeNode root;
+
         public BinaryTree(TreeNode root){
             this.root=root;
         }
 
-        public void prePrint(){
-            if(this.root==null){
-                System.out.println("树为空");
-            }
-            this.root.prePrint();
+        public void preSearch(int e){
+            TreeNode treeNode = this.root.preSearch(e);
+            System.out.println(treeNode);
         }
 
-        public void midPrint(){
-            if(this.root==null){
-                System.out.println("树为空");
-            }
-            this.root.midPre();
+        public void midSearch(int e){
+            TreeNode treeNode = this.root.minSearch(4);
+            System.out.println(treeNode);
         }
 
-        public void postPrint(){
-            if(this.root==null){
-                System.out.println("树为空");
-            }
-            this.root.postPrint();
+        public void postSearch(int e){
+            TreeNode treeNode = this.root.postSearch(e);
+            System.out.println(treeNode);
         }
     }
-
     static class TreeNode{
         private int data;
         private TreeNode left;
         private TreeNode right;
-
         public TreeNode(int data){
             this.data=data;
         }
+
         public int getData() {
             return data;
         }
@@ -91,46 +86,61 @@ public class 二叉树遍历 {
                     '}';
         }
 
-        /**
-         * 先序遍历
-         */
-        public void prePrint(){
-            System.out.println(this);//先遍历父节点
+        public TreeNode preSearch(int e){
+            System.out.println("前序遍历");
+            if(this.data==e){
+                return this;
+            }
+            TreeNode treeNode=null;
             if(this.left!=null){
-                this.left.prePrint();
+                treeNode=this.left.preSearch(e);
+            }
+            if(treeNode!=null){
+                return treeNode;
             }
             if(this.right!=null){
-                this.right.prePrint();
+                treeNode=this.right.preSearch(e);
             }
+            return treeNode;
         }
 
-        /**
-         * 中序遍历
-         */
-        public void midPre(){
+        public TreeNode minSearch(int e){
+            TreeNode treeNode=null;
             if(this.left!=null){
-                this.left.midPre();
+                treeNode=this.left.minSearch(e);
             }
-            System.out.println(this);
+            if(treeNode!=null){
+                return treeNode;
+            }
+            System.out.println("中序遍历");
+            if(this.data==e){
+                return this;
+            }
             if(this.right!=null){
-                this.right.midPre();
+                treeNode=this.right.minSearch(e);
             }
+            return treeNode;
         }
 
-        /**
-         * 后序遍历
-         */
-        public void postPrint(){
+        public TreeNode postSearch(int e){
+            TreeNode treeNode=null;
             if(this.left!=null){
-                this.left.postPrint();
+                treeNode=this.left.postSearch(e);
+            }
+            if(treeNode!=null){
+                return treeNode;
             }
             if(this.right!=null){
-                this.right.postPrint();
+                treeNode=this.right.postSearch(e);
             }
-            System.out.println(this);
+            if(treeNode!=null){
+                return treeNode;
+            }
+            System.out.println("后序遍历");
+            if(this.data==e){
+                return this;
+            }
+            return treeNode;
         }
     }
 }
-
-
-
