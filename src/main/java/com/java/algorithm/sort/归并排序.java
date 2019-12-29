@@ -1,5 +1,8 @@
 package com.java.algorithm.sort;
 
+/**
+ * 归并排序的博客：https://blog.csdn.net/qq_32595453/article/details/79574601
+ */
 public class 归并排序 {
 
 	public static void main(String[] args) {
@@ -10,8 +13,8 @@ public class 归并排序 {
 			System.out.print(arr[i]+" ");
 		}
 	}
-	
-	
+
+
 	public static void sort(int []arr){
         int []temp = new int[arr.length];//在排序前，先建好一个长度等于原数组长度的临时数组，避免递归中频繁开辟空间
         sort(arr,0,arr.length-1,temp);
@@ -47,42 +50,42 @@ public class 归并排序 {
             arr[left++] = temp[t++];
         }
     }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	public static void mergeSort(int[] a,int[] b,int low,int high){
 		if(low==high){
 			b[low]=a[low];
@@ -93,9 +96,9 @@ public class 归并排序 {
 		    merge(b, a,low, mid, high);
 		}
 	}
-	
+
 	public static void merge(int[] a,int[] b,int low,int mid,int high){
-		
+
 		int i=low,j=mid+1,k=i;
 		for(;i<=mid&&j<=high;++k){
 			if(a[i]<=a[j]){
