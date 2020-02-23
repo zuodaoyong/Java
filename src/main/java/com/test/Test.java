@@ -1,17 +1,15 @@
 package com.test;
 
 
+import com.common.ThreadUtils;
+
 import java.util.Arrays;
+import java.util.concurrent.Callable;
 
 public class Test {
 
     public static void main(String[] args) throws Exception{
 
-        String aa="sdvdf";
-        int d = aa.indexOf('d');
-        System.out.println(d);
-        String aa1 = aa.substring(d+1);
-        System.out.println(aa1);
 
     }
 
