@@ -10,7 +10,8 @@ public class Test {
 
     public static void main(String[] args) throws Exception{
 
-
+       int index=1;
+        System.out.println(index--==1);
     }
 
 }
