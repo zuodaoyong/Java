@@ -1,21 +1,20 @@
 package com.test;
 
 
-import com.common.ThreadUtils;
-
-import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.concurrent.Callable;
-
 public class Test {
 
     public static void main(String[] args) {
 
+        //模拟执行任务的第一个阶段的执行
+        Thread stepOne = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName() + " : 第一阶段任务开始执行");
+            try {
+                Thread.sleep(1000);
+                System.out.println(Thread.currentThread().getName() + " : 第一阶段任务执行结束");
+            } catch (InterruptedException e) {
+            }
+        }, "firstStage");
     }
-
-
-
 
 
 }
