@@ -22,7 +22,8 @@ public class t7整数反转 {
 
 
     public static void main(String[] args) {
-        int reverse = reverse2(1534236469);
+        int reverse = reverse2(-2147483648);
+        //int i=1056389759;
         System.out.println(reverse);
     }
 
@@ -86,29 +87,29 @@ public class t7整数反转 {
     public static int reverse2(int x){
         String str=x+"";
         char sign='\001';
-        int y;
-        int reminder;
-        int res=0;
+        long y;
+        long reminder;
+        long res=0;
         if(str.charAt(0)=='-'){
             sign='-';
-            y=Math.abs(Integer.valueOf(str.substring(1)));
+            y=Math.abs(Long.valueOf(str.substring(1)));
         }else{
             y=x;
         }
         while (y>0){
             reminder=y%10;
-            y=(y-reminder)/10;
+            y=y/10;
             res=res*10+reminder;
         }
         str=res+"";
         if(sign=='-'){
             str=sign+str;
         }
-        try {
-            return Integer.parseInt(str);
-        }catch (Exception e){
+        Long aLong = Long.valueOf(str);
+        if(aLong>Integer.MAX_VALUE||aLong<Integer.MIN_VALUE){
             return 0;
         }
+        return aLong.intValue();
     }
 
 }
