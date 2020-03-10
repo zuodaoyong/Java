@@ -46,7 +46,7 @@ package com.java.leetcode;
 public class t8字符串转换整数 {
 
     public static void main(String[] args) {
-        String str="20000000000000000000";
+        String str="3.14159";
         int i = myAtoi(str);
         System.out.println(i);
     }
@@ -81,17 +81,27 @@ public class t8字符串转换整数 {
                 break;
             }
         }
+        if((c==43||c==45)&&lastIndex==0){
+            return 0;
+        }
         if(c==43){
             startIndex=1;
         }
         String substring = str.substring(startIndex, lastIndex+1);
-        Long aLong = Long.valueOf(substring);
-        if(aLong>Integer.MAX_VALUE){
+        try{
+            Long aLong = Long.valueOf(substring);
+            if(aLong>Integer.MAX_VALUE){
+                return Integer.MAX_VALUE;
+            }
+            if(aLong<Integer.MIN_VALUE){
+                return Integer.MIN_VALUE;
+            }
+            return aLong.intValue();
+        }catch (Exception e){
+            if(c==45){
+                return Integer.MIN_VALUE;
+            }
             return Integer.MAX_VALUE;
         }
-        if(aLong<Integer.MIN_VALUE){
-            return Integer.MIN_VALUE;
-        }
-        return aLong.intValue();
     }
 }
