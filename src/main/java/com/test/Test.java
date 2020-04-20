@@ -1,12 +1,18 @@
 package com.test;
 
 
+
+import org.openjdk.jol.info.ClassLayout;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class Test {
 
     public static void main(String[] args) {
-
-        boolean odd = isOdd(10);
-        System.out.println(odd);
+        Object o=new Object();
+        System.out.println(ClassLayout.parseInstance(o).toPrintable());
 
     }
 

@@ -341,6 +341,11 @@
 		  <artifactId>guava</artifactId>
 		  <version>28.1-jre</version>
 	  </dependency>
+	  <dependency>
+		  <groupId>org.openjdk.jol</groupId>
+		  <artifactId>jol-core</artifactId>
+		  <version>0.9</version>
+	  </dependency>
   </dependencies>
   <build>
     <finalName>Java</finalName>
