@@ -4,9 +4,6 @@ package com.test;
 
 import org.openjdk.jol.info.ClassLayout;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Test {
 
