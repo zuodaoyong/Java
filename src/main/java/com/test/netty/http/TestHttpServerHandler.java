@@ -9,6 +9,8 @@ import io.netty.util.CharsetUtil;
 
 import java.net.URI;
 
+import static io.netty.handler.codec.http.HttpHeaderNames.CONNECTION;
+
 /*
 说明
 1. SimpleChannelInboundHandler 是 ChannelInboundHandlerAdapter
@@ -54,7 +56,7 @@ public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
 
             response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain");
             response.headers().set(HttpHeaderNames.CONTENT_LENGTH, content.readableBytes());
-
+            response.headers().set(CONNECTION, HttpHeaderValues.KEEP_ALIVE);
             //将构建好 response返回
             ctx.writeAndFlush(response);
 

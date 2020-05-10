@@ -9,35 +9,26 @@ import io.netty.handler.codec.http.HttpServerCodec;
 
 public class HttpServer {
 
-    public static void main(String[] args) throws Exception {
+    private static final int port = 6789; //设置服务端端口
+    private static  EventLoopGroup group = new NioEventLoopGroup();   // 通过nio方式来接收连接和处理连接
+    private static  ServerBootstrap b = new ServerBootstrap();
 
-        EventLoopGroup bossGroup=new NioEventLoopGroup();
-        EventLoopGroup workGroup=new NioEventLoopGroup();
-
-        ServerBootstrap serverBootstrap=new ServerBootstrap();
-        serverBootstrap.group(bossGroup,workGroup)
-                .channel(NioServerSocketChannel.class)
-                .option(ChannelOption.SO_BACKLOG,128)
-                .childOption(ChannelOption.SO_KEEPALIVE,true)
-                .childHandler(new ChannelInitializer<SocketChannel>() {
-                    @Override
-                    protected void initChannel(SocketChannel socketChannel) throws Exception {
-                        ChannelPipeline pipeline = socketChannel.pipeline();
-                        pipeline.addLast("HttpServerCodec",new HttpServerCodec());
-                        pipeline.addLast("HttpServerHandler",new HttpServerHandler());
-                    }
-                });
-        ChannelFuture channelFuture = serverBootstrap.bind(6668).sync();
-
-        channelFuture.addListener(new ChannelFutureListener() {
-            @Override
-            public void operationComplete(ChannelFuture channelFuture) throws Exception {
-                if(channelFuture.isSuccess()){
-                    System.out.println("绑定6668成功");
-                }
-            }
-        });
-        channelFuture.channel().closeFuture().sync();
-
+    /**
+     * Netty创建全部都是实现自AbstractBootstrap。
+     * 客户端的是Bootstrap，服务端的则是    ServerBootstrap。
+     **/
+    public static void main(String[] args) throws InterruptedException {
+        try {
+            b.group(group);
+            b.channel(NioServerSocketChannel.class);
+            b.childHandler(new NettyServerFilter()); //设置过滤器
+            // 服务器绑定端口监听
+            ChannelFuture f = b.bind(port).sync();
+            System.out.println("服务端启动成功,端口是:"+port);
+            // 监听服务器关闭监听
+            f.channel().closeFuture().sync();
+        } finally {
+            group.shutdownGracefully(); //关闭EventLoopGroup，释放掉所有资源包括创建的线程
+        }
     }
 }
