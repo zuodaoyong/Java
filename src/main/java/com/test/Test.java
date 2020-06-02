@@ -2,22 +2,34 @@ package com.test;
 
 
 
-import org.openjdk.jol.info.ClassLayout;
 
 
 public class Test {
 
+
+
     public static void main(String[] args) {
-        Object o=new Object();
-        System.out.println(ClassLayout.parseInstance(o).toPrintable());
+
+        int i=10;
+        int j=20;
+        int k=i+j;
 
     }
 
-
-    private static boolean isOdd(int i){
-        return  (i&1)==1;
+    private void test(){
+        try{
+            int i=15;
+            int j=8;
+            int k=i+j;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
+
+
 
 }
+
+
 
 
