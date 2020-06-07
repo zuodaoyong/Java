@@ -25,39 +25,53 @@ public class t88合并两个有序数组 {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3,0,0,0};
         int[] nums2 = {2,5,6};
-        merge(nums1,3,nums2,3);
+        merge3(nums1,3,nums2,3);
     }
 
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int[] res=new int[m+n];
-        int i=0;
-        int j=0;
-        int k=0;
-        int t=0;
-        while (i<m){
-            if(j<n){
-                if(nums1[i]<=nums2[j]){
-                    res[k++]=nums1[i];
-                    i++;
-                }else{
-                    res[k++]=nums2[j];
-                    j++;
-                }
-            }else {
-                break;
+
+    public static void merge2(int[] nums1, int m, int[] nums2, int n) {
+        int i1=m-1;
+        int i2=n-1;
+        int i=m+n-1;
+        while (i1>=0&&i2>=0){
+            if(nums1[i1]>nums2[i2]){
+                nums1[i]=nums1[i1];
+                i1--;
+                i--;
+            }else{
+                nums1[i]=nums2[i2];
+                i2--;
+                i--;
             }
         }
-
-        while (i<m){
-            res[k++]=nums1[i++];
+        while (i2>=0){
+            nums1[i]=nums2[i2];
+            i2--;
+            i--;
         }
-        while (j<n){
-            res[k++]=nums2[j++];
-        }
-        k=0;
-        while (k<(m+n)){
-            nums1[t++]=res[k++];
-        }
+        System.out.println(Arrays.toString(nums1));
 
     }
+
+    public static void merge3(int[] nums1, int m, int[] nums2, int n) {
+        int index1 = m - 1, index2 = n - 1;
+        int indexMerge = m + n - 1;
+        while (index1 >= 0 || index2 >= 0) {
+            if (index1 < 0) {
+                nums1[indexMerge--] = nums2[index2--];
+            } else if (index2 < 0) {
+                nums1[indexMerge--] = nums1[index1--];
+            } else if (nums1[index1] > nums2[index2]) {
+                nums1[indexMerge--] = nums1[index1--];
+            } else {
+                nums1[indexMerge--] = nums2[index2--];
+            }
+        }
+        System.out.println(Arrays.toString(nums1));
+    }
+
+
+
+
+
 }
