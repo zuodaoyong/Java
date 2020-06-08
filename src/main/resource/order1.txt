@@ -1,0 +1,2160 @@
+{
+  "took": 96,
+  "timed_out": false,
+  "_shards": {
+    "total": 8,
+    "successful": 8,
+    "failed": 0
+  },
+  "hits": {
+    "total": 195,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a63e1afd-3d50-4693-831d-37dcca5e47de",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006025GAYEFMONA"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ad4e5275-fa01-4223-ad50-93a79b270ec4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060213K3TKKRBX"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "8e414337-229a-41e8-ba0f-1b1e37ddd434",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060235G8G6D9CU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2948fdec-0c46-473f-b26a-634eb9967214",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TIICUWNU0D"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d82f2c0f-4cab-4674-b65d-21e3a36e292a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ZCL2EOPCOV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "20ce6507-8602-464c-8698-6b1b0fcdf8aa",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602RMPYG1E6CZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "cd97b248-c88c-4c3f-b5d6-6cec347e3d7c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602I1XO92I49M"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0a8a8bdd-dd33-47ba-bff1-2437b6631647",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602RZW75BPZFM"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b68530dc-84f9-4f60-91af-ca3e5351bc45",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602UDG8DE6FNS"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b2da1bcc-2d37-475f-a2cc-a10164f0c611",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020LIS6ZO1UX"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "47e97e5d-2e0e-4edb-819a-847d3375a269",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006027QVAMSZ4X1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "01adf414-cf12-4102-af72-24569e95bbba",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602582Y9S9YK2"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "411758fe-132a-43bf-927b-00d14bd8f02f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GC4Q97IWIM"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d00874fc-f073-433b-94c8-8c203aac6362",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602OD1QGIWSKX"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ebdc58c1-58c6-4b94-ad2b-9b992ca2dc66",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602QB1Y6AQ78U"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c2ad17f3-ec2b-4510-b3e7-6d172c46797f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602U3T4RF1UP0"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1a50cd57-29c3-49b7-91de-6f6619be741a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602A9924KDMSE"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2a778719-0d1c-45d9-b73e-102017babbde",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602SKX3X6GETX"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "91ec624a-cefe-459f-b921-ad723e25a47c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006027IUCREGB4H"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "34bb38ee-3499-4572-9054-7a0f3c731f92",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020GI1UGQT6R"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "7f30c312-27ee-42fb-ba7b-d0c7a79ed85c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602M9GMRW6WP8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fbc64f78-c677-4b00-9e75-326c9dca39a1",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602R5XD2TIG6Y"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e646ce29-5380-49df-8fc4-aa02e700a57b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TSIS5WGGZV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fbdf045a-6045-4e7a-90ea-15a67f10a581",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602U803WIV070"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "460b3c8a-d9ef-4b6d-b81e-93cd3600d843",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602O89UY90OSE"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b2aa76de-fa5e-4e5d-bb09-de1c04b5b35e",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BS8WWQ719L"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d0cc738d-9851-464d-ab04-a280f3ffb723",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020KELIH5ET9"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1f6d17e9-ab71-4ac0-a4db-6a15b8b4babc",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602PFGUVSO6HN"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "16085acb-33d9-4670-bf52-54d9c0924cc5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022AQOIE1CGR"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d5f732cb-64d5-4420-9a7b-19fed1143ea4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TNURMLC854"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "9d502b3e-7531-4d41-92e3-b9146c533903",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006025Q6DMSQG5Z"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c43d1f10-a767-4936-8f9b-6001b55fb0c4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602LSDEHVP97U"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "12448f39-56e4-41e6-9e3b-a797174384a5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602QLDT4EA3RG"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1b706623-d8ea-418f-a172-c6f854efa9db",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006027S6QFZVEUZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "292e476a-0ed2-4b4c-9f46-e4e63c4edac4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TWIPY055DI"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1f8a8305-9e24-4afa-97d2-0ec705e82593",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602SIX8V81LK1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d64b25d0-efde-4dd9-b58a-b1165cf44c33",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060251XFI2NOEZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0c6a3d8c-afb9-423d-ac16-bde501edbf7b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TC75C5VTO5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "24d9f36f-270b-40d3-a7ba-a0c835b9498a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ZG1GHH01P1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c23805a4-13bd-4c85-a9bd-4730babb4d29",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ZFWPOWOX14"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "696fa00a-851a-47f2-8be9-6c2a1e32ad72",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006029OMTZM55RN"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2daf3d18-1d5d-43de-a915-1a948c500d24",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602KRDA271PI7"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "5c4240b5-a88d-44ed-beeb-e72a516fb346",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602FUGQFV4UYH"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f13b3fca-78f2-4460-9af7-8c1134251754",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602EXFIL43653"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1e0f9ded-6cdb-46db-931a-4b283986a922",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BZH1EI6ZL3"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "cb98d7c7-e11b-4d27-b409-a5e44dffb1b4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006024OS9GH178G"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a95ea037-34f1-4881-927b-a5ae96709897",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GWIEEQGVQ8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e9349797-57a9-4b7e-8ad2-7d0851452453",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GNE4GZAYWT"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "802e1b11-af03-4d49-9981-d8f1f0691ad1",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MXKVRYLZ5X"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "30f1e206-6b1c-4354-8205-bd3156a533ea",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602KEV18G0HGU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "399abd6f-1783-4605-ba50-c161eb7ab8c7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GDB5DGP6P8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1449eae5-2206-4e08-be55-1004aec84c5f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021H1BWLP8L5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "934a2544-1402-41af-94eb-c2b92feaf731",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BHY2WHG5A6"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0a15f9f7-3f77-455a-b292-36ef8d2c9ec3",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602I6B0MT1E9G"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "9e09b196-5546-437c-a4de-984e0b7c04cf",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602US4ZFLIM1Z"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "7494703f-31ce-4c5d-8243-62c588b06dc7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006028AVQRZTKZ2"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e289571b-98b2-4764-8ccd-3373c854e5e5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602DUYKBC2U3A"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "151abd95-be8d-425b-a539-5613e4065f73",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602EGN8U5CUFM"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "49377eef-6648-4cda-a195-4ff5f27411cc",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602V8A5KU9U9L"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1df86155-6b46-430d-84b5-eb119f383b9c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602HR56PYG5PV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "92a59c93-651f-4957-92cc-0c35f03734db",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602C6CKTUEZW0"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "7029b5e9-9ec7-43c0-b573-671c8434666d",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602IGBLMHL6L7"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d8794648-af77-46a2-bd13-7b283fdb5f2a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006026D6P86K7XH"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e3eb2196-05ac-4b75-9d23-93c893e04ace",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602HA7AYVTCE9"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "553c404d-8301-4efa-9fda-7c135b51d058",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BEU3KMUB8K"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "577b4677-f3a3-452a-bf91-40c095b64f0b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602B4PG4TGGFZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "4ae9b6d8-c89c-4441-bec9-2a0955fa4169",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060250FG2YBGY5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "eb4f9ffb-feb1-4d46-b03e-8dc78491e95c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602RUULESU3TK"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f5a82ed1-7b8e-438c-aefb-7095ac9e3652",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602B24UXZW51B"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c8486b6c-889d-46f0-b944-26ce962f538b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602L9IB3Y3DA8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "655388ce-49df-4034-a844-b6b1eecc4ccb",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602VQP4G8UOWV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "aacc3859-506e-4dc3-b2e0-4ddaf914a267",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021FU1VPBNA6"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "8d3f3358-d50b-4e43-8c75-981f9578de2f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006025M9KS5V6MB"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "3587e680-dbf3-4005-ba8d-1b86bd0c0421",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XUOCU7Z6F4"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1e139a6d-71c6-471b-a3f5-341c6e08eca4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006026RA13M7AL5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "9800d5fa-aa1e-42b7-928a-6b9c40b538db",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060203FTRGNTAZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "12ad4ff6-188b-44fe-914b-aac76ef55107",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602QTM5GKQ0ZK"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "602cb281-d7d8-40aa-bf55-a130030eabe1",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602EWO3R4P8D1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b5eb494c-69a8-4615-91e9-092162c5e9ba",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602VWY0GM33UF"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "82367064-9189-4b18-832b-af3d3ee999ad",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602C6N8GUPRCE"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "aeec9a97-cbf8-4a60-baad-a02f0d928638",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602X9YWQWSKAR"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "80299455-e291-40ca-97bc-30507a4e5766",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602UXOIH0HTZA"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "03c0b195-387a-40b8-b3ed-07dc57275d38",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021GPX6IAGHN"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a1306cd8-a1c7-409c-9bf9-f43f218e522b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602VRMVVQOXM8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e73d1149-d46f-4d5b-b764-76620c689ae2",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006025DM7TKZ4GT"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "240e4a31-289f-4373-9fec-763135c60aa2",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602KGN743AXPF"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "8a6db83f-b759-4484-8e04-0b3cd307aed7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006028TQ1GWYN9V"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "3dd5decb-6bbf-4798-9d89-81a2be7f4274",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602K2LL7TCVXS"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f34ee2bc-f04a-4950-9263-22c848ce9e77",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020QOO0XKFGS"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b15f366d-75e9-45d6-87ad-05ec5d27cef4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022FFGGBYOS8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fd153ddb-d7d3-463b-b975-5f397a748c50",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602N2EM47W7Z5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "dacd9d68-a023-4a71-a555-fb6f4e6558ef",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602WEC10O1GE1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "25c0de4d-4f57-4e44-bd7b-e11fa272ead3",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602S21ACHX3YM"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a92b5779-f2ae-4957-937c-45e0038aac8c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XQ62KXGG8S"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2901fb7f-c15e-4a27-8f84-4398d3dd731b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006029N6VAM0C1G"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "bce40d82-abeb-461b-b95b-6f4918f3a1ab",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602HOOA5MQGOW"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f0c16203-39dd-4840-8951-8a6f96dfe842",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MVDIVW17UW"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "bfed33e9-4a05-4202-a70e-426d27268eb5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602L5AGRHX73C"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fcf22044-d1cc-4b9d-a9a3-504d9f49433d",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006024N5WHU8C9I"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d2c65ecc-b7c9-42c6-8010-e18425ae5f49",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602HD586YCFGO"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c23f22fd-deec-4d60-ac39-e0752cb7361e",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602V16HF6IO25"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "73769356-b657-4b89-8b60-514ad474fc62",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602QHE2A3P4G5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "cc32fd85-3e67-4ee2-a528-f0b1eabed045",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602V268P4SAX1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a6ed356f-fdcc-441b-aa75-5c08792a598c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022P64S8F8N1"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "9cba1be9-c101-4c5c-b3c8-8a67d393952a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602Y82ML8M7F3"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fb8a94e4-b6eb-49d0-a318-257d1eece98f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006029HAW58MTGG"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "9dd5493b-e09f-4159-9b7d-60cad3b84e04",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GBOATYNQQQ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a1b1b14c-f266-4fe0-91ab-7498fabb71ad",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ST9YFAR30T"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "00911680-f7bb-4067-a277-42de4d0b78f7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602UTMT1VUM10"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2fbd3ac9-b38e-4c5f-94f9-4ca42faebf73",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GZRXXG0Q7R"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "780d16b9-f56d-4a31-bd33-b36415f304bf",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602VZ95CQ3VXK"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c892715b-e6eb-4969-946c-1bc6b6e3a35f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602B853FMDGTN"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fb7b4eca-87be-4923-998c-df1823ad3604",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602KMGG3L2FHT"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c566fc07-4a58-458e-a49a-5c6a54de1dc5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022XAF0B20EA"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "3950a0ea-e6ec-4a3b-a3c0-2e621051fb98",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602PXITXNZT6V"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "354bc70b-8bcf-420b-a9a8-e3114fa16ee1",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602538G4ZCWR2"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "592a14be-ba49-426d-a1b0-a7e2c4053ae7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006024CR7CWNAFW"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "bfea7d2d-34d3-478b-8979-ef82d2388a97",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602P6431CBWOT"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f9d83753-2160-4b0c-801f-f7cc70c5b172",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602LHFQUUIG4M"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "35945eb0-1f2d-4a1b-ae50-b1fdf7c6556c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602UKPYPRQFO9"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "6f9a7c8c-fc7e-48ec-9fea-79d0e7d460ee",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602U3I0CGRQPK"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "4cca584c-e4fc-42da-bc09-9a2c5a1c3f1d",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MHTHY0XO5F"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "70d5e65c-7719-4d4a-88fe-d86dcba0579b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006029BZ196YID3"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "025f857e-38ac-494f-a66b-a253a81f9073",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602IGB2XFQYX0"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "3a0be86b-7e73-48f1-99ad-f2abd8898bc4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602IR2HWU2U8P"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "6ca867bf-b620-477e-9aa3-9a694e4d51f9",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602F2UEOSKK43"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0c76d535-4dfb-4172-b1fc-2add8b146577",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BKET6UAH3O"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "513e2905-2a76-4436-8ff3-aff796ae5a53",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602Q7TW9GCLVU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "bc9af956-c272-488a-9424-685770b7b274",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602YBNAIC7I31"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fea06185-2113-4186-b7fa-cb9875c7c4bc",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602WIYHAYEXTE"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fec2d0ac-2129-4743-9000-b0a03e4a12d8",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060214X7DG0KSB"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d7af8985-8590-49d5-84b2-f421f5257e98",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602VSZ2Y0NAI9"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f9f1ac60-eb63-4451-943b-b11499e4cb39",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602WZT7QKGY4I"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "736d61e6-764a-45a0-81e5-5759d8b25329",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MMZC4RLF9F"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "311082de-3b1a-448e-9a23-2a6cf5bf8cc0",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060210IYZDZDGR"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "8baf33a1-13b9-4b7e-915e-596d233eb4a4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006029ZLRY2P9FU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "77fd55d4-cd9f-4d2c-bee6-9c3b5131f804",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BVV3U8K7XO"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c60b2a8b-4810-4f9e-893e-ce5fedfe1751",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022KLPV6FZAQ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "7ae3569f-0bde-4aaa-b7f3-da0a062c1844",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602YOVGI830QB"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f6e3af35-b9c0-466c-ac40-24dcf4cbc7f9",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602S5LC52IWK4"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c8a6e694-d678-4b79-88a9-2eef1c7b8b64",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006027HT15XNGY8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "aad35f16-530e-4196-813a-2299ce4a5d62",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060257MEU338GP"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "49fbd658-b197-4b40-9a83-ea129167fedc",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060275MY6BODUA"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "e8b79a6c-5d78-42dc-ac92-67faf68c660a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602Q30EG5V1YG"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "bdbe2f96-085d-42e0-a064-66a363f1872f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021XHK1TU5GV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "6dcefc0c-6ae2-4add-a129-1c886c4237de",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XWFFILIELI"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ff23d7a3-b027-461f-8456-212d3d37c58b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602DYW2NHRMZU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a71c6877-a06f-4acc-b63e-addb15b87fe3",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006024XVLTMH3G3"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "eeab0ab3-efa0-4244-8036-efa978a72cd5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021VUR5HCE11"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ac248cf0-d9e4-433a-abe4-561187799cfe",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ZILMRHK5LU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0dc05055-3968-4913-a1ce-fe154d6d1609",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602H35EDNX0PO"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "df3e44f7-9ad8-4a64-a2ad-b08ca0ed9f4b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020R7DK6XW6H"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a3240252-f4c4-415e-b71d-6766dac1b379",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GGS9WDTV4K"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "05130b8f-ddd9-42dc-b286-b7ce32c10e61",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060262UM0KQF8Q"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1270e7d6-7ebb-4933-92b2-9df3395f98ba",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XTOBGZAAZP"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b9cbc421-94e3-4d4a-9648-3e4c86da4cb9",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022GRCKGWLM5"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "efd1c247-2b35-46a3-a583-64cd9cf8d560",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602IUNGTB42A9"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ba040e6e-77a9-411b-94d5-79225fb08c29",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XR88CSGXRY"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1a3edb19-f0cf-4a43-943b-3eaef62fa9cb",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021SUGOOC679"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1b630204-29c6-4921-b018-c48288160d65",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602NY0LTE0WTU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a42c29e4-2bcf-45c8-bc07-47e5fd42157b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602WRGRWO72OE"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "19e3dfd9-78fd-4c07-9c25-ed52c3227294",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060250P1W7VO85"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fdfe44fd-733d-4221-bb88-4c5c14c73611",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020GMGDG9EGU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "fca7f477-db8c-467a-a066-d3524d7f2756",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602WHPCYLM59C"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "4dccdc87-2bed-40ae-b69b-82b013b229be",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602A9SXUKUXV8"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "6d6e8694-90ba-4ed5-8435-b847c8319302",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602282OCB3I5B"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f1cbaa95-d4bc-44a7-9468-14435db64fc9",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602NFMGHLRT4D"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "f1f4e819-e191-4fab-8271-4b527f0cbffc",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602A1LWUGUMNO"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ccb54568-f8fb-4904-a2f1-df88d7f8e1d2",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602YS5725LTHU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "cf36ab8a-5359-415b-a19e-1d98f18035f5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006024CQ35UMU0A"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "80487edf-767c-4d73-b124-ab57622cf8f4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602QQC2XMCX4T"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1a086ff4-2985-4341-858c-5177e2d2f881",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602LQHGERDRKF"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ba8f9dc1-74b5-4add-b3a5-1e3edaa00e02",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602ZDV8U6124D"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b5a5acbd-5842-4db6-8a09-04e4ea9e125d",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MFU2MLEAGZ"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0ebe9f35-1abc-49b7-9565-f23f1ff70952",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006026IYEZR56IG"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "b383b559-9fa8-439a-a955-6e12f3723e3a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602TZPB4BI9QG"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "080fece5-6946-445f-951f-be47e11c6381",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006023CHDFMY61Q"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "6980942b-208c-4892-9ae1-543ec0570735",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602U9ETGQB4WO"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "0469ed1e-a101-459d-9be9-d2d397c59bbb",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602Q7V48Q6A0O"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "c9f20508-b1af-4ea6-8717-8818817e093f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602C1D57U3ATF"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "add34ea3-eeac-4a84-85ce-9ae36039adfa",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602NIIUCBXVUW"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "64f2904e-a3a1-4f7d-aecf-8ded45a83ae7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006020QTSIGDNDN"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "2db4bd97-9f3a-4504-9fd2-4885a74091b7",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602BCZK9PHKTB"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "476d3a8a-92b1-44e7-9f49-5944b71e9e70",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602CC188SDSCU"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "31f87e7e-d652-44ac-9b21-c2114c141c89",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602W1TGTLIV7N"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "ab037407-2a51-42ab-b958-5d9deb4c0a4f",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006022WZX3OWPBB"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "d4d10a5f-5625-4187-8bb0-a915b5476dc5",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM202006021YHX2AEM0F"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "95f27b64-6bc5-40d1-bde2-fed203a78103",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602PI76NMG2OF"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "89d4a115-7757-4626-9891-247d53d07a7c",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602XZW6M0ULSV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "1d53f02b-6390-448b-bd5a-3e6c59cb243b",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GIKU7TQ852"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "32a18e5c-9e34-44fd-b821-44145a1f2209",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602F7ZKZY0SGM"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "500ace93-7740-45c5-9efe-1df2757f241d",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602MWI8U8WKGW"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "a9bde5ee-8fc9-45f9-9bc2-dfa7ceab5cce",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602EBSBMP4NRV"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "95d86d0d-d3f9-49dc-9a84-749bc54bf6f4",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM20200602GCVOGBNVO6"
+          ]
+        }
+      },
+      {
+        "_index": "traffic_bus_order_2020-06",
+        "_type": "traffic_bus_order",
+        "_id": "3450544c-4e56-4485-8229-cd2e72ee670a",
+        "_score": 1,
+        "fields": {
+          "orderserialno": [
+            "TM2020060231V56TGNWU"
+          ]
+        }
+      }
+    ]
+  }
+}
