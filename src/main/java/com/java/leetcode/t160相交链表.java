@@ -27,17 +27,11 @@ public class t160相交链表 {
         }
         ListNode p=headA;
         ListNode q=headB;
-        if(p==q){
-            return null;
+        while (p!=q){
+            p=(p==null)?headB:p.next;
+            q=(q==null)?headA:q.next;
         }
-        while (p.next!=null&&q.next!=null){
-            p=p.next;
-            q=q.next;
-            if(p==q){
-                return new ListNode(p.val);
-            }
-        }
-        return null;
+        return p;
     }
 
 
