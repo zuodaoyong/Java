@@ -1,8 +1,7 @@
 package com.test;
 
 
-
-
+import java.util.Stack;
 
 public class Test {
 
@@ -10,21 +9,14 @@ public class Test {
 
     public static void main(String[] args) {
 
-        int i=10;
-        int j=20;
-        int k=i+j;
+        Stack<Integer> stack=new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        System.out.println(stack.elementAt(1));
+        System.out.println(stack);
 
     }
 
-    private void test(){
-        try{
-            int i=15;
-            int j=8;
-            int k=i+j;
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
 
 
 
