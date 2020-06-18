@@ -64,58 +64,27 @@ public class t725分隔链表 {
     }
 
     public static ListNode[] splitListToParts(ListNode root, int k) {
-        ListNode p=root;
-        List<Integer> list=new ArrayList<>();
-        int len=0;
-        while (p!=null){
-            list.add(p.val);
-            p=p.next;
+        int N = 0;
+        ListNode cur = root;
+        while (cur != null) {
+            N++;
+            cur = cur.next;
         }
-        len=list.size();
-        int[] span=new int[k];
-        if(len>=k){
-            int t=len%k;
-            int part=len/t;
-            for(int i=0;i<k;i++){
-                if(t>0){
-                    span[i]=2;
-                    t--;
-                }else {
-                    if(part>0){
-                        span[i]=1;
-                        part--;
-                    }
-                }
-
+        int mod = N % k;
+        int size = N / k;
+        ListNode[] ret = new ListNode[k];
+        cur = root;
+        for (int i = 0; cur != null && i < k; i++) {
+            ret[i] = cur;
+            int curSize = size + (mod-- > 0 ? 1 : 0);
+            for (int j = 0; j < curSize - 1; j++) {
+                cur = cur.next;
             }
-        }else{
-            for(int i=0;i<k;i++){
-                span[i]=1;
-            }
+            ListNode next = cur.next;
+            cur.next = null;
+            cur = next;
         }
-        ListNode[] res=new ListNode[k];
-        int m=0;
-        for(int i=0;i<k;i++){
-            ListNode head=null;
-            ListNode q=null;
-            for(int j=0;j<span[i];j++){
-                if(m<list.size()){
-                    if(head==null){
-                        head=new ListNode(list.get(m));
-                        q=head;
-                    }else {
-                        ListNode node=new ListNode(list.get(m));
-                        q.next=node;
-                        q=node;
-                    }
-                    m++;
-                }else {
-                    break;
-                }
-            }
-            res[i]=head;
-        }
-        return res;
+        return ret;
     }
 
     static class ListNode {
