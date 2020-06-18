@@ -16,37 +16,64 @@ import java.util.Stack;
  */
 public class t234回文链表 {
     public static void main(String[] args) {
+        ListNode head = init();
+        isPalindrome(head);
+    }
 
+    private static ListNode  init(){
+        int[] arr={1,3,4,4,1};
+        ListNode head=null;
+        ListNode p=null;
+        for(int i=0;i<arr.length;i++){
+            if(head==null){
+               head=new ListNode(arr[i]);
+               p=head;
+            }else {
+                ListNode node=new ListNode(arr[i]);
+                p.next=node;
+                p=node;
+            }
+        }
+        return head;
     }
 
     public static boolean isPalindrome(ListNode head) {
-        boolean flag=false;
-        if(head==null){
+        if(head==null||head.next==null){
             return true;
         }
-        if(head!=null&&head.next==null){
-            return true;
-        }
+        ListNode slow=head;
+        ListNode fast=head.next;
         ListNode p=head;
-        Stack<Integer> stack=new Stack<>();
-        while (p!=null){
-            Integer top=!stack.empty()?stack.elementAt(stack.size()-1):null;
-            Integer next=!stack.empty()&&stack.size()-2>=0?stack.elementAt(stack.size()-2):null;
-            if(top!=null&&top.intValue()==p.val){
-                stack.pop();
-            }else if(next!=null&&!flag&&next.intValue()==p.val){
-                stack.pop();
-                stack.pop();
-                flag=true;
-            }else {
-                stack.push(p.val);
-            }
+        while (fast!=null&&fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        if(fast!=null){
+            slow=slow.next;
+        }
+        //切割链表
+        while (p.next!=slow){
             p=p.next;
         }
-        if(stack.size()==0){
-            return true;
+        p.next=null;
+        //链表转置
+        ListNode newHead=null;
+        ListNode newNode=null;
+        while (slow!=null){
+            newNode=slow.next;
+            slow.next=newHead;
+            newHead=slow;
+            slow=newNode;
         }
-        return false;
+        //判断回文
+        while (newHead!=null&&head!=null){
+            if(newHead.val!=head.val){
+                return false;
+            }
+            newHead=newHead.next;
+            head=head.next;
+        }
+        return true;
     }
 
     static class ListNode {
