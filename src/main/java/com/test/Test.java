@@ -15,20 +15,16 @@ public class Test {
     }
 
 
-    public static int maxProfitv2(int[] prices) {
-        if(prices==null||prices.length==0){
-            return 0;
+    public static boolean canPlaceFlowersV2(int[] flowerbed, int n){
+        int i=0;
+        while (i<flowerbed.length){
+           if(flowerbed[i]==0&&(i==0||flowerbed[i-1]==0)&&(i==flowerbed.length-1||flowerbed[i+1]==0)){
+               flowerbed[i]=1;
+               n--;
+           }
+           i++;
         }
-        int max=0;
-        int min=prices[0];
-        for(int i=1;i<prices.length;i++){
-            if(min>prices[i]){
-                min=prices[i];
-            }else{
-                max=Math.max(max,prices[i]-min);
-            }
-        }
-        return max;
+        return n<=0;
     }
 
 
