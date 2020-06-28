@@ -15,16 +15,18 @@ public class Test {
     }
 
 
-    public static boolean canPlaceFlowersV2(int[] flowerbed, int n){
-        int i=0;
-        while (i<flowerbed.length){
-           if(flowerbed[i]==0&&(i==0||flowerbed[i-1]==0)&&(i==flowerbed.length-1||flowerbed[i+1]==0)){
-               flowerbed[i]=1;
-               n--;
-           }
-           i++;
+    public static boolean isSubsequenceV2(String s, String t) {
+
+
+        int index=-1;
+        char[] chars = s.toCharArray();
+        for(int i=0;i<chars.length;i++){
+            index=s.indexOf(chars[i],index+1);
+            if(index==-1){
+                return false;
+            }
         }
-        return n<=0;
+        return true;
     }
 
 
