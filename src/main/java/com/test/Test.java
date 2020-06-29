@@ -7,9 +7,10 @@ public class Test {
 
 
 
+    private static String a="123";
     public static void main(String[] args)  throws Exception{
-
-
+        String a="456";
+        System.out.println(a);
 
 
     }
