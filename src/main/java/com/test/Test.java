@@ -1,7 +1,15 @@
 package com.test;
 
 
+import javax.swing.plaf.TableHeaderUI;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicIntegerArray;
+import java.util.concurrent.atomic.AtomicMarkableReference;
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class Test {
 
@@ -9,26 +17,46 @@ public class Test {
 
     private static String a="123";
     public static void main(String[] args)  throws Exception{
-        String a="456";
-        System.out.println(a);
 
+        test(()->new int[10],
+                (arr)->arr.length,
+                (arr,index)->arr[index]++,
+                (arr)-> System.out.println(Arrays.toString(arr)));
+
+        test(()->new AtomicIntegerArray(10),
+                (arr)->arr.length(),
+                (arr,index)->arr.getAndIncrement(index),
+                (arr)-> System.out.println(arr));
 
     }
 
+    private static <T> void test(
+            Supplier<T> supplier,
+            Function<T,Integer> function,
+            BiConsumer<T,Integer> biConsumer,
+            Consumer<T> printConsumer) throws Exception{
 
-    public static boolean isSubsequenceV2(String s, String t) {
+        List<Thread> list=new ArrayList<>();
+        T t = supplier.get();
+        Integer length = function.apply(t);
 
-
-        int index=-1;
-        char[] chars = s.toCharArray();
-        for(int i=0;i<chars.length;i++){
-            index=s.indexOf(chars[i],index+1);
-            if(index==-1){
-                return false;
-            }
+        for(int i=0;i<length;i++){
+            list.add(new Thread(()->{
+                for(int j=0;j<10000;j++){
+                    biConsumer.accept(t,j%length);
+                }
+            }));
         }
-        return true;
+        list.forEach(th->th.start());
+
+        while (Thread.activeCount()>2){
+
+            Thread.sleep(100);
+        }
+
+        printConsumer.accept(t);
     }
+
 
 
 
