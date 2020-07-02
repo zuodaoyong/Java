@@ -1,23 +1,18 @@
-package com.test;
+package com.java.thread.atomic;
 
-
-import javax.swing.plaf.TableHeaderUI;
-import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicIntegerArray;
-import java.util.concurrent.atomic.AtomicMarkableReference;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class Test {
+public class AtomicIntegerArrayDemo {
 
 
-
-    private static transient String a="123";
-    public static void main(String[] args)  throws Exception{
-
+    public static void main(String[] args) throws Exception{
         test(()->new int[10],
                 (arr)->arr.length,
                 (arr,index)->arr[index]++,
@@ -29,7 +24,6 @@ public class Test {
                 (arr)-> System.out.println(arr));
 
     }
-
     private static <T> void test(
             Supplier<T> supplier,
             Function<T,Integer> function,
@@ -56,14 +50,4 @@ public class Test {
 
         printConsumer.accept(t);
     }
-
-
-
-
-
-
 }
-
-
-
-
