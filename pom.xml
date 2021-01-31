@@ -418,6 +418,17 @@
 		  <artifactId>aliyun-java-sdk-core</artifactId>
 		  <version>4.5.10</version>
 	  </dependency>
+	  <dependency>
+		  <groupId>com.google.protobuf</groupId>
+		  <artifactId>protobuf-java</artifactId>
+		  <version>3.14.0</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>com.google.protobuf</groupId>
+		  <artifactId>protobuf-java-util</artifactId>
+		  <version>3.14.0</version>
+	  </dependency>
+
   </dependencies>
   <build>
     <finalName>Java</finalName>
