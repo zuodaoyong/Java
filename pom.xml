@@ -407,6 +407,17 @@
 		  <artifactId>jol-core</artifactId>
 		  <version>0.9</version>
 	  </dependency>
+
+	  <dependency>
+		  <groupId>com.aliyun</groupId>
+		  <artifactId>aliyun-java-sdk-sts</artifactId>
+		  <version>3.0.2</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>com.aliyun</groupId>
+		  <artifactId>aliyun-java-sdk-core</artifactId>
+		  <version>4.5.10</version>
+	  </dependency>
   </dependencies>
   <build>
     <finalName>Java</finalName>
